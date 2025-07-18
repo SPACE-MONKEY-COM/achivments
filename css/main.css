@@ -122,17 +122,19 @@ main{
 
 .progress-bar{
 	height: 100%;
-	background-color: #7c7c7c;
-	width: 20%;
+	background-color: #4373ec;
+	width: 0%;
 }
 .progress{
-	bottom: 0;
-	position: absolute;
-	height: 7px;
-	width: 100%;
-	/* border-radius: 20px; */
-	overflow: hidden;
-	background-color: #d8d8d8fa;
+    bottom: 10px;
+    position: absolute;
+    height: 7px;
+    left: 10%;
+    border-radius: 16px;
+    width: 80%;
+    /* border-radius: 20px; */
+    overflow: hidden;
+    background-color: #ffffff;
 }
 
 .block-small{
@@ -157,7 +159,7 @@ main{
 
 #profile{
 	position: relative;
-
+	height: 150px;
 }
 
 #level{
